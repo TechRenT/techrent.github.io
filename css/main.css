@@ -20,6 +20,10 @@ img {
   max-width: 100%;
 }
 
+h3 {
+  margin: 0 0 1em 0;
+}
+
 
 
 /*********************************
@@ -132,6 +136,18 @@ PAGE: PORTFOLIO
   box-sizing: border-box;
 }
 
+
+
+/*********************************
+PAGE: ABOUT
+*********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
 
 /*********************************
 COLORS
