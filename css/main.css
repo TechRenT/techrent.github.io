@@ -127,6 +127,11 @@ PAGE: PORTFOLIO
   color: #bdc3c7;
 }
 
+#gallery li {
+  border: solid .5px #ddd;
+  box-sizing: border-box;
+}
+
 
 /*********************************
 COLORS
