@@ -136,6 +136,10 @@ PAGE: PORTFOLIO
   box-sizing: border-box;
 }
 
+#gallery li:nth-child(odd) {
+  clear: left;
+}
+
 
 
 /*********************************

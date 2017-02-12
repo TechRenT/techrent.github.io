@@ -1,11 +1,39 @@
 @media screen and (min-width: 480px) {
-  body {
-    background: navy;
+  
+  /*********************************
+  CONTACT PAGE: TWO COLUMN LAYOUT
+  *********************************/
+  
+  #primary {
+    width: 50%;
+    float: left;
   }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+  
+  
+  /*********************************
+  PORTFOLIO PAGE
+  *********************************/
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(odd) {
+    clear: none;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+
 }
 
 @media screen and (min-width: 660px) {
-  body {
-    background: darkgreen;
-  }
+  
 }
