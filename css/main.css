@@ -228,3 +228,19 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #32673f;
 }
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+  margin-top: 50%;
+  width: 100%;
+}

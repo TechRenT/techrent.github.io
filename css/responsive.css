@@ -42,6 +42,11 @@
     float: left;
     margin: 0 3% 10px 0;
   }
+  
+  #overlay img {
+    margin-top: 30%;
+    width: 90%;
+  }
 
 }
 
@@ -80,6 +85,10 @@
     border-bottom: 5px solid #599a68;
     margin-bottom: 60px;
   }
-  
+
+  #overlay img {
+    margin-top: 5%;
+    width: 80%;
+  }
   
 }
